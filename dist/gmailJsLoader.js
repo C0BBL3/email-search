@@ -1,6 +1,6 @@
 "use strict";
-(() => {
-  var __getOwnPropNames = Object.getOwnPropertyNames;
+
+var __getOwnPropNames = Object.getOwnPropertyNames;
   var __commonJS = (cb, mod) => function __require() {
     return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
   };
@@ -9216,7 +9216,6 @@
     // this is the actual function which jQuery needs
   });
   window._gmailjs = window._gmailjs || new GmailFactory.Gmail(jquery_module_default);
-})();
 /*! Bundled license information:
 
 jquery/dist-module/jquery.module.js:
@@ -9231,4 +9230,3 @@ jquery/dist-module/jquery.module.js:
    * Date: 2024-07-17T13:32Z
    *)
 */
-//# sourceMappingURL=gmailJsLoader.js.map
